@@ -1,11 +1,35 @@
 {
     "name": "cluster-queue/dummy",
     "description": "Dummy project for php-cluster-queue-core. A project to setup a server configuration for a cluster. Eg. with DRDB, heartbeat for DB/ WWW Servers; This is the dummy package to start your own using the core package in the background. Donwload it and use it as you project base",
-    "type": "library",
     
+    "type": "library",
+    "repositories": [{
+        "type":"package",
+        "package": {
+          "name": "mumsys/library",
+          "version":"master",
+          "source": {
+              "url": "https://github.com/mumsys/library.git",
+              "type": "git",
+              "reference":"unstable"
+            }
+        }
+    },{
+        "type":"package",
+        "package": {
+          "name": "cluster-queue/core",
+          "version":"master",
+          "source": {
+              "url": "https://github.com/cluster-queue/core.git",
+              "type": "git",
+              "reference":"unstable"
+            }
+        }
+    }],
+
     "require": {
         "php": "7.3.* | 7.4.* | 8.0.*",
-        "mumsys/library": "^1",
+        "mumsys/library": "master",
         "cluster-queue/core": "*"
     },
 
