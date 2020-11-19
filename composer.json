@@ -31,6 +31,6 @@
         "sort-packages": true
     },
 
-    "license": "not in yet, no licence!",
+    "license": "GPL-3.0",
     "minimum-stability": "dev"
 }
