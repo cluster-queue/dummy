@@ -1,6 +1,6 @@
 {
     "name": "cluster-queue/dummy",
-    "description": "Dummy project for php-cluster-queue-core. A project to setup a server configuration for a cluster. Eg. with DRDB, heartbeat for DB/ WWW Servers; This is the dummy package to start your own using the core package in the background. Donwload it and use it as you project base",
+    "description": "Dummy project for php-cluster-queue-core. A project to setup a server configuration for a cluster. Eg. with DRDB, heartbeat for DB/ WWW Servers; This is the dummy package to start your own using the core package in the background. Donwload it and use it as your project base",
     
     "type": "library",
     "repositories": [{
