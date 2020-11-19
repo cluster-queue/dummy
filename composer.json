@@ -1,7 +1,7 @@
 {
     "name": "cluster-queue/dummy",
     "description": "Dummy project for php-cluster-queue-core. A project to setup a server configuration for a cluster. Eg. with DRDB, heartbeat for DB/ WWW Servers",
-    "type": "project",
+    "type": "library",
     
     "require": {
         "php": "7.3.* | 7.4.* | 8.0.*",
