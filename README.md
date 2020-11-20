@@ -12,7 +12,7 @@ Project related 'dummy' sources for use as templates for your own project.
 After installation: Program description see 'cluster-queue - core'
 [README](vendor/cluster-queue/core/README.md)
 
-Don't clone this project. Just download it, install dependencies and start configuring it.
+Don't clone this project. Just [download](https://github.com/cluster-queue/dummy/releases) it, install dependencies and start configuring it.
 
 This is your project root and you may commit the sources to your _private_ repository.
 
