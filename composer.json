@@ -22,7 +22,7 @@
           "source": {
               "url": "https://github.com/cluster-queue/core.git",
               "type": "git",
-              "reference":"unstable"
+              "reference":"13dde82"
             }
         }
     }],
