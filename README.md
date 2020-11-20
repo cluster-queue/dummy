@@ -1,10 +1,22 @@
+# UNSTABLE BRANCH
+
+nothing works currently. please wait for the first release in stable branch
+
+
+
 cluster-queue - Dummy Project
 ============================================================
 
 Project related 'dummy' sources for use as templates for your own project.
 
-Program description see 'cluster-queue - core' [README](vendor/cluster-queue/core/README.md)
+After installation: Program description see 'cluster-queue - core'
+[README](vendor/cluster-queue/core/README.md)
 
+Don't clone this project. Just download it, install dependencies and start configuring it.
+
+This is your project root and you may commit the sources to your _private_ repository.
+
+**Take care not publishing passwords or private keys!!!**
 
 
 Installation
