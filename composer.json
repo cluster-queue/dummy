@@ -11,7 +11,7 @@
           "source": {
               "url": "https://github.com/mumsys/library.git",
               "type": "git",
-              "reference":"unstable"
+              "reference":"13dde82"
             }
         }
     },{
@@ -22,7 +22,7 @@
           "source": {
               "url": "https://github.com/cluster-queue/core.git",
               "type": "git",
-              "reference":"13dde82"
+              "reference":"unstable"
             }
         }
     }],
