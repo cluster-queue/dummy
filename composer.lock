@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a5df378efc7c24d31e243d293d8e5dc",
+    "content-hash": "2f0a9dfdc19a9c8539bbfdf1ea817c80",
     "packages": [
         {
             "name": "cluster-queue/core",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cluster-queue/core.git",
-                "reference": "c179bb4483d3df74078f40b27ba7d4fc2e1f0d4e"
+                "reference": "c814bc48eb8820a8385ce4d5e9258deebbb7c25c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cluster-queue/core/zipball/c179bb4483d3df74078f40b27ba7d4fc2e1f0d4e",
-                "reference": "c179bb4483d3df74078f40b27ba7d4fc2e1f0d4e",
+                "url": "https://api.github.com/repos/cluster-queue/core/zipball/c814bc48eb8820a8385ce4d5e9258deebbb7c25c",
+                "reference": "c814bc48eb8820a8385ce4d5e9258deebbb7c25c",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,7 @@
                 "php": "7.3.* | 7.4.* | 8.0.*"
             },
             "bin": [
-                "bin/php-cluster-queue"
+                "php-cluster-queue"
             ],
             "type": "library",
             "autoload": {
@@ -46,14 +46,21 @@
             "description": "Setup a configuration to setup a server cluster. Eg. with DRBD, heartbeat for DB/ WWW Servers; You may look for the dummy package to use this in the background",
             "homepage": "https://github.com/cluster-queue/core",
             "keywords": [
-                "dao",
-                "dto",
-                "library",
+                "bash",
+                "cli",
+                "cluster-management",
+                "cluster-queue",
+                "cluster-setup",
+                "core",
                 "php",
+                "scp",
+                "server-config",
+                "setup",
                 "shell",
-                "web"
+                "ssh",
+                "zsh"
             ],
-            "time": "2020-11-23T21:53:15+00:00"
+            "time": "2020-11-24T17:57:53+00:00"
         },
         {
             "name": "flobee/spss",
@@ -261,9 +268,10 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "mumsys/library": 20
+        "mumsys/library": 20,
+        "cluster-queue/core": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "7.3.* | 7.4.* | 8.0.*"
