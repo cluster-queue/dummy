@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6020e5b742ffd6b9071164043335a424",
+    "content-hash": "2f0a9dfdc19a9c8539bbfdf1ea817c80",
     "packages": [
         {
             "name": "cluster-queue/core",
-            "version": "1.0.0",
+            "version": "dev-unstable",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cluster-queue/core.git",
@@ -268,7 +268,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "mumsys/library": 20
+        "mumsys/library": 20,
+        "cluster-queue/core": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
