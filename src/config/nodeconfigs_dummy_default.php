@@ -25,13 +25,15 @@ return array(
     'actions' => array(
 
         'NODECURRENTPUB:defaultactions' => array(
-            'type' => 'execute | deploy | archive',
+            'type' => 'execute', //  execute | deploy | archive,
             'value' => array(
                 // 'vmstart NODECURRENTPUB'
                 // 'sleep 20'
 
                 // before all other: create a path first, befor copy stuff to it
                 // 'mkdir -p /tmp/install-tmp' => array('type'=>'remote'),
+
+                '# ls -al # as comment, as demo command',
             ),
             'posway' => 'after',
             'poskey' => null,

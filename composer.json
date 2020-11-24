@@ -1,24 +1,32 @@
 {
     "name": "cluster-queue/dummy",
     "description": "Dummy project for php-cluster-queue-core. A project to setup a server configuration for a cluster. Eg. with DRDB, heartbeat for DB/ WWW Servers; This is the dummy package to start your own using the core package in the background. Donwload it and use it as your project base",
-    
     "type": "library",
-
-    "require": {
-        "php": "7.3.* | 7.4.* | 8.0.*",
-        "mumsys/library": "dev-unstable",
-        "cluster-queue/core": "*"
-    },
-
-    "require-dev": {
-
-    },
+    "keywords": ["dummy", "cluster-queue", "cluster-setup", "cluster-management", "server-config", "setup", "ssh", "scp", "bash", "zsh", "shell", "cli", "php"],
+    "homepage": "https://github.com/cluster-queue/dummy",
+    "authors": [
+        {
+            "name": "Florian Blasel",
+            "email": "flobee.code@gmail.com"
+        }
+    ],
 
     "autoload": {
         "classmap": [
             "src/"
         ]
     },
+
+    "require": {
+        "php": "7.3.* | 7.4.* | 8.0.*",
+        "mumsys/library": "dev-unstable",
+        "cluster-queue/core": "dev-unstable"
+    },
+
+    "require-dev": {
+
+    },
+
 
     "scripts": {
         "post-install-cmd": [
@@ -31,5 +39,6 @@
     },
 
     "license": "GPL-3.0",
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

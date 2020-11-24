@@ -27,7 +27,8 @@ return array(
         // relevant files for the replacement for this node
         // starting in: './skel'
         'files' => array(
-            '/generic/etc/hostname' => '/etc/hostname',
+            // no filename replacements here!
+            '/dummynodes/testconfigtemplate' => '/tmp/testconfigtemplate',
         ),
 
         // Action configs/tokens to queue dependencies
@@ -36,7 +37,6 @@ return array(
         // actions take affect. E.g. install mysql to add configs to /etc/mysql otherwise create the paths
         'actions' => array(
             //// job 1
-            //array(
             //    jobKey: nodekey:customID => array(
             //        type: deploy|archive|execute,
             //        value: cmd|src=>target|cmd=>array(opts)
@@ -44,9 +44,19 @@ return array(
             //        poskey: nodekey:customID
             //        // default: 'posway' => 'after', 'poskey' => null,
             //    ),
-            //)
             //...
-            //),
+
+            'node01:deploybuilds' => array(
+                'type' => 'deploy', 'value' => array(
+                    // flag to include the values from 'files' from above ('replace' key)
+                    // only once per node config!
+                    'files' => true,
+                ),
+                'posway' => 'after',
+                'poskey' => null,
+                // default: 'posway' => 'after', 'poskey' => null,
+            ),
         ),
     ),
+    //'node02' => array( ...
 );
