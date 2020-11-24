@@ -37,12 +37,25 @@ Installation
 
 Um die Anwendung nutzen zu können, müssen Abhängigkeiten installiert werden.
 
+Variante A:
+
+    # Ein neues Projekt in 'your-workspace/newproject' erstellen:
+    cd newproject
+    /pfad/zu/composer.phar create-project cluster-queue/dummy ./
+
+Variante B:
+
+    [Download](https://github.com/cluster-queue/dummy/releases) und entpacken.
+
     cd ./
 
-    php /pfad/zu/composer.phar installieren
+    php /pfad/zu/composer.phar install
 
     # Wenn nicht ausführbar:
     chmod +x ./php-cluster-queue
+
+
+Alle Varianten:
 
     # Start:
     # ./php-cluster-queue

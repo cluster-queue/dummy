@@ -20,13 +20,12 @@
     "require": {
         "php": "7.3.* | 7.4.* | 8.0.*",
         "mumsys/library": "dev-unstable",
-        "cluster-queue/core": "dev-unstable"
+        "cluster-queue/core": "^1"
     },
 
     "require-dev": {
 
     },
-
 
     "scripts": {
         "post-install-cmd": [
