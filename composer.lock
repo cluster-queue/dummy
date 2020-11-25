@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cluster-queue/core.git",
-                "reference": "b074d12158db04c16ffadc254f1f2833fe5eb897"
+                "reference": "bd6796ed1da472cd3674d27156fb2f5f3c8c363a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cluster-queue/core/zipball/b074d12158db04c16ffadc254f1f2833fe5eb897",
-                "reference": "b074d12158db04c16ffadc254f1f2833fe5eb897",
+                "url": "https://api.github.com/repos/cluster-queue/core/zipball/bd6796ed1da472cd3674d27156fb2f5f3c8c363a",
+                "reference": "bd6796ed1da472cd3674d27156fb2f5f3c8c363a",
                 "shasum": ""
             },
             "require": {
@@ -60,7 +60,7 @@
                 "ssh",
                 "zsh"
             ],
-            "time": "2020-11-24T21:02:07+00:00"
+            "time": "2020-11-25T16:43:18+00:00"
         },
         {
             "name": "flobee/spss",
@@ -196,16 +196,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.1.8",
+            "version": "v6.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "917ab212fa00dc6eacbb26e8bc387ebe40993bc1"
+                "reference": "e38888a75c070304ca5514197d4847a59a5c853f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/917ab212fa00dc6eacbb26e8bc387ebe40993bc1",
-                "reference": "917ab212fa00dc6eacbb26e8bc387ebe40993bc1",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/e38888a75c070304ca5514197d4847a59a5c853f",
+                "reference": "e38888a75c070304ca5514197d4847a59a5c853f",
                 "shasum": ""
             },
             "require": {
@@ -215,9 +215,12 @@
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
                 "doctrine/annotations": "^1.2",
-                "friendsofphp/php-cs-fixer": "^2.2",
-                "phpunit/phpunit": "^4.8 || ^5.7"
+                "phpcompatibility/php-compatibility": "^9.3.5",
+                "roave/security-advisories": "dev-latest",
+                "squizlabs/php_codesniffer": "^3.5.6",
+                "yoast/phpunit-polyfills": "^0.2.0"
             },
             "suggest": {
                 "ext-mbstring": "Needed to send email in multibyte encoding charset",
@@ -257,11 +260,11 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "funding": [
                 {
-                    "url": "https://github.com/synchro",
+                    "url": "https://github.com/Synchro",
                     "type": "github"
                 }
             ],
-            "time": "2020-10-09T14:55:58+00:00"
+            "time": "2020-11-25T15:24:57+00:00"
         }
     ],
     "packages-dev": [],
