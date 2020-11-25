@@ -1,18 +1,22 @@
+cluster-queue - dummy
+============================================================
+
 DE | [EN](README_EN.md)
+
+
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 Inhalt
 
-- [cluster-queue - Dummy-Projekt](#cluster-queue---dummy-projekt)
+- [cluster-queue - Dummy - Projekt](#cluster-queue---dummy---projekt)
   - [Installation](#installation)
     - [Anforderungen](#anforderungen)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-
-cluster-queue - Dummy-Projekt
+cluster-queue - Dummy - Projekt
 ============================================================
 
 Projektbezogene 'Dummy'-Quellen zur Verwendung als Vorlagen für/ als Ihr eigenes Projekt.
@@ -22,20 +26,20 @@ Klonen Sie dieses Projekt nicht. Einfach
 Installieren Sie Abhängigkeiten und beginnen Sie mit der Konfiguration Ihrer Server/
 Knoten-Konfigurationen und/oder Ihrer Konfigurations- Abhängigkeiten.
 
-Dies ist Ihr Projekt-'Root' und Sie können die Quellen in Ihr _privates_ Repository
+Dies ist Ihre Projekt- Basis und Sie können die Quellen in Ihr _privates_ Repository
 committen.
 
 **Achten Sie darauf, keine Passwörter oder privaten Schlüssel zu veröffentlichen!**
 
 Schauen Sie nach der Installation in die Anwendungs- Dokumentation 'cluster-queue - `core`'.
-[vendor/cluster-queue/core/README.md](vendor/cluster-queue/core/README.md)
+`./vendor/cluster-queue/core/README.md`
 
 
 
 Installation
 ------------------------------------------------------------
 
-Um die Anwendung nutzen zu können, müssen Abhängigkeiten installiert werden.
+Um die Anwendung nutzen zu können müssen Abhängigkeiten installiert werden.
 
 Variante A:
 
@@ -71,8 +75,6 @@ Composer (composer.phar)? "Ein Abhängigkeitsmanager für PHP" [Homepage](https:
 
 
 ### Anforderungen
-
-Anforderungen:
 
     php >= 7.3, 7.4, 8.0 ...
     php-cli
