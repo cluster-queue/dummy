@@ -5,12 +5,7 @@ CHANGELOG - cluster-queue - Dummy Project
 Possible todos
 ------------------------------------------------------------
 
-- replace file locations in replacement files? 
-  I.e: 'files' => array('src_REPLACEMENTKEY '=> 'target_REPLACEMENTKEY')...
-
-- Open remote shell while executing the queue
-
-    - Install/ upgrade/ maintainance possibility
+- Hints are moved to the 'core' project.
 
 
 

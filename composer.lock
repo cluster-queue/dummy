@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cluster-queue/core.git",
-                "reference": "bd6796ed1da472cd3674d27156fb2f5f3c8c363a"
+                "reference": "94b1ce9dfa7306208d522d90e68026822d47a462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cluster-queue/core/zipball/bd6796ed1da472cd3674d27156fb2f5f3c8c363a",
-                "reference": "bd6796ed1da472cd3674d27156fb2f5f3c8c363a",
+                "url": "https://api.github.com/repos/cluster-queue/core/zipball/94b1ce9dfa7306208d522d90e68026822d47a462",
+                "reference": "94b1ce9dfa7306208d522d90e68026822d47a462",
                 "shasum": ""
             },
             "require": {
@@ -60,7 +60,7 @@
                 "ssh",
                 "zsh"
             ],
-            "time": "2020-11-25T16:43:18+00:00"
+            "time": "2020-12-03T22:16:19+00:00"
         },
         {
             "name": "flobee/spss",
