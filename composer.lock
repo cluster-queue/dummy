@@ -1,0 +1,284 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2f0a9dfdc19a9c8539bbfdf1ea817c80",
+    "packages": [
+        {
+            "name": "cluster-queue/core",
+            "version": "dev-unstable",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cluster-queue/core.git",
+                "reference": "94b1ce9dfa7306208d522d90e68026822d47a462"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cluster-queue/core/zipball/94b1ce9dfa7306208d522d90e68026822d47a462",
+                "reference": "94b1ce9dfa7306208d522d90e68026822d47a462",
+                "shasum": ""
+            },
+            "require": {
+                "mumsys/library": "dev-unstable",
+                "php": "7.3.* | 7.4.* | 8.0.*"
+            },
+            "bin": [
+                "php-cluster-queue"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Blasel",
+                    "email": "flobee.code@gmail.com"
+                }
+            ],
+            "description": "Setup a configuration to setup a server cluster. Eg. with DRBD, heartbeat for DB/ WWW Servers; You may look for the dummy package to use this in the background",
+            "homepage": "https://github.com/cluster-queue/core",
+            "keywords": [
+                "bash",
+                "cli",
+                "cluster-management",
+                "cluster-queue",
+                "cluster-setup",
+                "core",
+                "php",
+                "scp",
+                "server-config",
+                "setup",
+                "shell",
+                "ssh",
+                "zsh"
+            ],
+            "time": "2020-12-03T22:16:19+00:00"
+        },
+        {
+            "name": "flobee/spss",
+            "version": "3.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flobee/spss.git",
+                "reference": "3d551d1cba9036f9ee8d79ca61be85c5dc83c994"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flobee/spss/zipball/3d551d1cba9036f9ee8d79ca61be85c5dc83c994",
+                "reference": "3d551d1cba9036f9ee8d79ca61be85c5dc83c994",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-mbstring": "*",
+                "php": "7.2.* || 7.3.* || 7.4.*"
+            },
+            "require-dev": {
+                "composer/composer": "^1.9",
+                "phing/phing": "^2",
+                "phpunit/phpunit": "^8",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SPSS\\": "src/",
+                    "SPSS\\Tests\\": "tests/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kornienko Vladislav",
+                    "email": "vk.tiamo@gmail.com",
+                    "role": "origin"
+                },
+                {
+                    "name": "Florian Blasel",
+                    "email": "flobee.code@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sam Mousa",
+                    "email": "sam@mousa.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SPSS, PSPP php implementation (read/write .sav files)",
+            "keywords": [
+                ".sav",
+                "cli",
+                "cli-app",
+                "parser",
+                "por",
+                "pspp",
+                "reader",
+                "sav",
+                "spss",
+                "statistics",
+                "writer"
+            ],
+            "time": "2020-09-08T17:46:40+00:00"
+        },
+        {
+            "name": "mumsys/library",
+            "version": "dev-unstable",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mumsys/Library.git",
+                "reference": "404265b3e7d9d3b94f19cb6b6ce59daf9365137a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mumsys/Library/zipball/404265b3e7d9d3b94f19cb6b6ce59daf9365137a",
+                "reference": "404265b3e7d9d3b94f19cb6b6ce59daf9365137a",
+                "shasum": ""
+            },
+            "require": {
+                "flobee/spss": "^3.1",
+                "php": "7.3.* | 7.4.*",
+                "phpmailer/phpmailer": "^6"
+            },
+            "require-dev": {
+                "composer/composer": "^1.9",
+                "phing/phing": "^2",
+                "phpbench/phpbench": "^0.16.10",
+                "phploc/phploc": "*",
+                "phpmd/phpmd": "*",
+                "phpstan/phpstan": "^0.11.19",
+                "phpunit/phpunit": "^8.4",
+                "sebastian/phpcpd": "*",
+                "squizlabs/php_codesniffer": "^3.5",
+                "tedivm/jshrink": "^1"
+            },
+            "type": "project",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Blasel",
+                    "email": "flobee.code@gmail.com",
+                    "homepage": "http://flobee.cgix.de"
+                }
+            ],
+            "description": "PHP library for the MUMSYS project",
+            "homepage": "https://mumsys.org",
+            "keywords": [
+                "dao",
+                "dto",
+                "library",
+                "php",
+                "shell",
+                "web"
+            ],
+            "time": "2020-11-24T20:55:13+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v6.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "e38888a75c070304ca5514197d4847a59a5c853f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/e38888a75c070304ca5514197d4847a59a5c853f",
+                "reference": "e38888a75c070304ca5514197d4847a59a5c853f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "ext-hash": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "doctrine/annotations": "^1.2",
+                "phpcompatibility/php-compatibility": "^9.3.5",
+                "roave/security-advisories": "dev-latest",
+                "squizlabs/php_codesniffer": "^3.5.6",
+                "yoast/phpunit-polyfills": "^0.2.0"
+            },
+            "suggest": {
+                "ext-mbstring": "Needed to send email in multibyte encoding charset",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "funding": [
+                {
+                    "url": "https://github.com/Synchro",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-11-25T15:24:57+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "mumsys/library": 20,
+        "cluster-queue/core": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "7.3.* | 7.4.* | 8.0.*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
